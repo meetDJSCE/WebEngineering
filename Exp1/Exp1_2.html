@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<style>
+    th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+    }
+    .table-two{
+        border: none;
+        border-collapse: collapse;
+        width: 100px;
+        height: 50px;
+        text-align: left;
+        font-weight: bold;
+    }
+    .table-two-small{
+        border: none;
+        border-collapse: collapse;
+        width: min-content;
+        height: fit-content;
+        text-align: left;
+        font-weight: normal;
+    }
+</style>
+<body>
+    <center><h2>Timetable for AY 2021-2022(Odd Sem)</h2></center>
+    <table style="width: 100%;">
+        <tr>
+            <td style="border: none; text-align: left;"><h3>Class: S.E. (Sem-III)</h3></td>
+            <td style="border: none; text-align: right;"><h3>WEF: 10th Nov 2021</h3></td>
+        </tr>
+    </table>
+    <table style="width: 100%; border: 1px solid black; border-collapse: collapse;">
+        <br>
+        <tr>
+            <td>Time</td>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+            <td>Saturday</td>
+        </tr>
+        <tr>
+            <td>9am-10am</td>
+            <td>DSA (HN)</td>
+            <td></td>
+            <td rowspan="2" >DBMS(K1 & K2)(AV)<br><center>(Online)</center><br>DSA(K3 & K4)(PB)<br><center>(Online)</center></td>
+            
+            <td></td>
+            <td>DSA (HN)</td>
+            <td rowspan="2" >DBMS(K3 & K4)(AV)<br><center>(Online)</center><br>DSA(K1 & K2)(HN)<br><center>(Online)</center></td>
+        </tr>
+        <tr>
+            <td>10:10am - 11:10am</td>
+            <td>MIS (AB)</td>
+            <td rowspan="2" >PP(K1 & K2)(PB)<br><center>[SPM]</center>FDA(K3 & K4)(KRS)<br><center>[COM]</center></td>
+            <td rowspan="2" >SDS [K1 & K2] (SS)<br><center>[COM]</center>PP [K3 & K4] (PB)<br><center>[SPM]</center></td>
+            <td>FDA (KRS)</td>
+        </tr>
+        <tr>
+            <td>11:20am - 12:20am</td>
+            <td>FDA (KRS)</td>
+            <td>FDA(KRS)</td>
+            <td>MIS (AB)</td>
+            <td>SDS (VS)</td>
+        </tr>
+        <tr>
+            <td>12:30pm - 1pm</td>
+            <td colspan="6">Break</td>
+        </tr>
+        <tr>
+            <td>1pm - 2pm</td>
+            <td>SDS (VS)</td>
+            <td rowspan="2" >FDA [K1 & K2] (KRS)<br><center>[COM]</center>SDS [K3 & K4] (VS)<br><center>[SPM]</center></td>
+            <td>MIS (AB)</td>
+            <td>MIS (AB) [TUT] [PM]</td>
+            <td>COI (RK)</td>
+            <td>DSA (HN)</td>
+        </tr>
+        <tr>
+            <td>2:10pm - 3:10pm</td>
+            <td>DBMS (AV)</td>
+            <td>SDS (VS)</td>
+            <td>IPD Discussion</td>
+            <td>DBMS (AV)</td>
+            <td>DBMS (AV)</td>
+        </tr>
+    </table>
+    <br>
+    <table style="width: 115%; border: none;">
+        <tr>
+            <td class="table-two">Subject Names</td>
+            <td class="table-two">Lab Names</td>
+            <td class="table-two">Faculty Names</td>
+        </tr>
+        <tr>
+            <td class="table-two-small">MIS: Mathematics for Intelligent System</td>
+            <td class="table-two-small">SPM: Software Project Management(3rd floor)</td>
+            <td class="table-two-small">AB: Prof. Alisha Banz</td>
+        </tr>
+        <tr>
+            <td class="table-two-small">DSA: Data Structures and Algorithms</td>
+            <td class="table-two-small">COM: Computing Lab(3rd floor)</td>
+            <td class="table-two-small">HN: Prof. Harish Narula</td>
+        </tr>
+        <tr>
+            <td class="table-two-small">FDA: Foundations of Data Analysis</td>
+            <td class="table-two-small"></td>
+            <td class="table-two-small">KRS: Prof. Kriti Srivastva</td>
+        </tr>
+        <tr>
+            <td class="table-two-small">DBMS: Database Management System</td>
+            <td class="table-two-small"></td>
+            <td class="table-two-small">AV: Prof. Anusha Vegesna</td>
+        </tr>
+        <tr>
+            <td class="table-two-small">SDS: Statistics for Data Science</td>
+            <td class="table-two-small"></td>
+            <td class="table-two-small">VS: Dr. Vaibhavi Sonetha/ SS: Prof. Shilank Singh</td>
+        </tr>
+        <tr>
+            <td class="table-two-small">PP: Programming with Python</td>
+            <td class="table-two-small"></td>
+            <td class="table-two-small">PB: Prof. Pranit Bari</td>
+        </tr>
+        <tr>
+            <td class="table-two-small">COI: Constitution of India</td>
+            <td class="table-two-small"></td>
+            <td class="table-two-small">RK: Rupali Karande</td>
+        </tr>
+    </table>
+</body>
+</html>
