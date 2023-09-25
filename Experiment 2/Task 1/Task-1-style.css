@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+h1, p {
+    margin: 0;
+}
+.head {
+    margin: 0;
+    display: flex;
+    flex-basis: 2;
+    background: #000;
+    padding-left: 90px;
+    gap: 60px;
+}
+.head a {
+    margin: 0;
+    text-decoration: none;
+    color: beige;
+}
+
+.corner {
+    padding-left: 640px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.corner input {
+    border-radius: 6px;
+}
+
+.section1{
+    padding-left: 120px;
+    background: green;
+}
+.section2 {
+    padding-left: 120px;
+    background-color: pink;
+}
+.section3 {
+    padding-left: 120px;
+    margin-bottom: 15px;
+}
+.footer {
+    padding: 10px;
+    background-color: #000;
+}
+.footer h5 {
+    text-align: center;
+    color: aliceblue;
+}
+
